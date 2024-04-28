@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Getter
 @Setter
 @Component
-public class ClienteDTO {
+public class CiclistaDTO {
 
     private Long id;
     private String email;
@@ -22,9 +22,9 @@ public class ClienteDTO {
     private String codigoCC;
     private String fotoDocumento;
 
-    public ClienteDTO() { super();}
+    public CiclistaDTO() { super();}
 
-    public ClienteDTO(String email, String nome, String CPF, String passaporte, String pais, String senha, String numeroCC, String nomeCC, String validadeCC, String codigoCC, String fotoDocumento) {
+    public CiclistaDTO(String email, String nome, String CPF, String passaporte, String pais, String senha, String numeroCC, String nomeCC, String validadeCC, String codigoCC, String fotoDocumento) {
         this.email = email;
         this.nome = nome;
         this.CPF = CPF;

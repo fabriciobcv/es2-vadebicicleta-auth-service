@@ -7,13 +7,13 @@ import org.springframework.stereotype.Component;
 @Getter
 @Setter
 @Component
-public class ClienteLoginDTO {
+public class CliclistaLoginDTO {
     private String email;
     private String senha;
 
-    public ClienteLoginDTO() { super();}
+    public CliclistaLoginDTO() { super();}
 
-    public ClienteLoginDTO(String email, String senha) {
+    public CliclistaLoginDTO(String email, String senha) {
         this.email = email;
         this.senha = senha;
     }
